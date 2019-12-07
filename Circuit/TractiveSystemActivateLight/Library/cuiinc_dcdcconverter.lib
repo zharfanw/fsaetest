@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# CUIInc_DCDCConverter
+#
+DEF CUIInc_DCDCConverter U 0 40 Y Y 1 F N
+F0 "U" 0 250 60 H V C CNN
+F1 "CUIInc_DCDCConverter" 50 -250 60 H V C CNN
+F2 "" 200 -150 60 H I C CNN
+F3 "" 200 -150 60 H I C CNN
+DRAW
+S -350 200 500 -200 0 1 0 N
+X +VIN ~ -550 100 200 R 50 50 1 1 I
+X +VOUT ~ 700 100 200 L 50 50 1 1 I
+X -VIN ~ -550 -100 200 R 50 50 1 1 I
+X -VOUT ~ 700 -100 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
